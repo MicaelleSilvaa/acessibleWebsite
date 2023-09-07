@@ -1,5 +1,4 @@
-/*Simple layout
-*/
+/*Simple layout*/
 
 body{
     padding-top: 80px;
@@ -18,8 +17,7 @@ body{
     overflow: auto;
 }
 
-/*Text stylization
-*/
+/*Text stylization*/
 
 .title{
     font-family: 'Monteserrat', sans-serif;
@@ -33,24 +31,44 @@ body{
     margin-left: 30px;
     margin-right: 10px;
     color: #000000;
+    font-size: 16px;
+}
+
+.copyright{
+    font-family: 'Monteserrat', sans-serif;
+    align-items: center;
+    margin-left: 280px;
 }
 
 
-/*MediaQuery
-*/
+/*MediaQuery*/
 
-@media (max-width: 450px) {
+
+@media (max-width: 768px) {
     .text {
-        color: red;
-        margin: 10px; 
+      font-size: 14px;
+      margin: 10px; 
+      color: #ffffff;
     }
 
     .title {
-        color: red;
+        font-size: 14px;
         margin: 10px; 
+        color: #ffffff;
+    }
+
+    .copyright {
+        font-size: 14px;
+        margin: 10px; 
+        color: #ffffff;
+    }
+  }
+
+  
+
+@media (max-width: 768px) {
+    .layout {
+        background-color: #000000
+        ;
     }
 }
-
-/*Acessible
-*/
-
